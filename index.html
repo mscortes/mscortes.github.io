@@ -67,11 +67,11 @@
     var svg = dimple.newSvg("#chartContainer", 590, 400);
     d3.csv("data/base.csv", function (data) {
       var myChart = new dimple.chart(svg, data);
-      myChart.setBounds(80, 30, 480, 330);
-      myChart.addCategorxAxis("x", "Cantidad");
-      myChart.addMeasureyAxis("y", "Cantidad");
-      myChart.addLegend(200, 10, 380, 20, "right");
-
+      myChart.setBounds(75, 30, 480, 330)
+      myChart.addMeasureAxis("x", "Cantidad");
+      var y = myChart.addCategoryAxis("y", "TipodeArma");
+      y.addOrderRule("Date");
+      myChart.addSeries(null, dimple.plot.bar);
       myChart.draw();
   });
   </script>

@@ -65,7 +65,7 @@
 <div id="chartContainer">
   <script type="text/javascript">
     var svg = dimple.newSvg("#chartContainer", 590, 400);
-    d3.csv("data/base.csv", function (data) {
+    d3.csv("data/Libro2.csv", function (data) {
       var myChart = new dimple.chart(svg, data);
       myChart.setBounds(75, 30, 480, 330)
       myChart.addMeasureAxis("x", "Cantidad");

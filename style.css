@@ -1,0 +1,53 @@
+body{
+  margin:0px;
+}
+
+h1 {
+  color: #E0D9D1;
+  font-size: 100px;  
+  font-family: 'bebas neue';
+  font-weight: normal;
+  margin:0px;
+  background-color: #000000;
+  padding:0px;
+  text-align:center;
+}
+
+.cuerpo{
+  background-color: #E0D9D1;
+  font-family:'bebas neue';
+  text-align:center;
+  margin:0px 100px 0px;
+  height:100%;
+}
+.seccion1 .container{
+  margin:0px;
+  padding:0px;
+}
+.seccion1 .container h2 {
+  color: #4D4F54;
+  font-size: 50px;  
+  font-family: 'bebas neue';
+  font-weight: normal;
+  margin:0px;
+  padding:0px;
+}
+
+.seccion1 p{
+  margin:10px;
+  padding:0px;
+  font-size:25px;
+}
+
+.seccion2 h2{
+  font-size:50px;
+  margin:0px;
+}
+
+.seccion2 img{
+  padding:20px;
+}
+
+.interaccion{
+  text-align:center;
+}

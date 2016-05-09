@@ -68,7 +68,8 @@
     d3.csv("data/base.csv", function (data) {
       var myChart = new dimple.chart(svg, data);
       myChart.setBounds(80, 30, 480, 330);
-      myChart.addCategoryAxis("y", "TipodeArma");
+      myChart.addCategorxAxis("x", "Cantidad");
+      myChart.addMeasureyAxis("y", "Cantidad");
       myChart.addLegend(200, 10, 380, 20, "right");
 
       myChart.draw();
